@@ -1,0 +1,63 @@
+ 1  pwd
+    2  sudo su
+    3  pwd
+    4  yum install httpd -y
+    5  sudo su
+    6  history
+    7  sudo du
+    8  sudo su
+    9  pwd
+   10  sudo su
+   11  history
+   12  sudo su
+   13  history
+   14  cd mu
+   15  history
+   16  sudo su
+   17  pwd
+   18  cd ..
+   19  cd /home/
+   20  dc /ec2-user/
+   21  cd ec2-user
+   22  sudo su
+   23  git status
+   24  sudo su
+   25  pwd
+   26  ls
+   27  sudo su
+   28  history
+[ec2-user@ip-172-31-19-38 ~]$ ls
+baigit  git  kii  mu  mumbaaigit  mumbaigitt  myfile  new
+[ec2-user@ip-172-31-19-38 ~]$ ls -la
+total 40
+drwx------. 9 ec2-user ec2-user 16384 May 21 17:04 .
+drwxr-xr-x. 3 root     root        22 May 14 03:40 ..
+-rw-------. 1 ec2-user ec2-user   215 May 22 19:07 .bash_history
+-rw-r--r--. 1 ec2-user ec2-user    18 Jan 28 22:29 .bash_logout
+-rw-r--r--. 1 ec2-user ec2-user   141 Jan 28 22:29 .bash_profile
+-rw-r--r--. 1 ec2-user ec2-user   492 Jan 28 22:29 .bashrc
+drwxr-xr-x. 8 root     root       166 May 22 18:08 .git
+drwx------. 2 ec2-user ec2-user    29 May 14 03:40 .ssh
+drwxr-xr-x. 3 root     root        33 May 19 02:30 baigit
+drwxr-xr-x. 2 root     root         6 May 16 02:49 git
+-rw-r--r--. 1 root     root         4 May 14 04:02 kii
+drwxr-xr-x. 3 root     root        43 May 19 02:06 mu
+drwxr-xr-x. 3 root     root        33 May 21 17:07 mumbaaigit
+drwxr-xr-x. 3 root     root        33 May 21 14:13 mumbaigitt
+-rw-r--r--. 1 root     root         0 May 16 02:50 myfile
+-rw-r--r--. 1 root     root         8 May 14 03:46 new
+[ec2-user@ip-172-31-19-38 ~]$ cd mumbaaigit
+[ec2-user@ip-172-31-19-38 mumbaaigit]$ ls
+myfile1
+[ec2-user@ip-172-31-19-38 mumbaaigit]$ cat myfilr1
+cat: myfilr1: No such file or directory
+[ec2-user@ip-172-31-19-38 mumbaaigit]$ cat myfile1
+hello this is monday night midnight but there is something to tell and after few minutes its going to be 12
+
+
+
+
+
+[ec2-user@ip-172-31-19-38 mumbaaigit]$ pwd
+/home/ec2-user/mum
+haoii
